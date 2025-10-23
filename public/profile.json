@@ -1,1 +1,90 @@
-{"data":{"user":{"name":"Shashwat Kumar","bio":"MS in Data Science @ Columbia University | Ex-Intuit | Nokia AI & Data Intelligence","avatarUrl":"https://avatars.githubusercontent.com/u/106906594?u=dcd6f9a0c5d6550358d13058d27d3b3c32c1d893&v=4","location":"New York","pinnedItems":{"totalCount":6,"edges":[{"node":{"name":"Columbia_Capstone-KPMG","description":"Built an intelligent policy analysis assistant for Medicaid programs using an LLM-RAG pipeline with BGE-M3 embeddings, FAISS, and Neo4j KG, leveraging Llama-3.1-8B and Qwen-2.5-7B for context-grounded Q&A to improve retrieval accuracy and enable scalable healthcare document automation.","forkCount":0,"stargazers":{"totalCount":1},"url":"https://github.com/Shashwat53/Columbia_Capstone-KPMG","id":"R_kgDOQDXEhA","diskUsage":34185,"primaryLanguage":{"name":"Python","color":"#3572A5"}}},{"node":{"name":"Online-Retail-and-Electricity-Demand-Forecasting","description":"Built clustering (UMAP, MiniBatchKMeans) and forecasting pipelines on 1M+ retail transactions using Prophet, BiLSTM, GLM & SARIMA (7.65% MAPE). Optimized electricity-usage forecasts via Savitzky–Golay smoothing and improved splits, benchmarking BiLSTM, DeepAR, Prophet & Chronos (2.4% MAPE).","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/Shashwat53/Online-Retail-and-Electricity-Demand-Forecasting","id":"R_kgDOQHhKgQ","diskUsage":21088,"primaryLanguage":{"name":"Jupyter Notebook","color":"#DA5B0B"}}},{"node":{"name":"SecureCloudX-An-Innovative-Approach-to-Enhance-Data-Security-Through-Advanced-File-Encryption","description":"SecureCloudX is a cutting-edge project that aims to enhance data security by utilizing advanced file encryption techniques. It offers a secure cloud environment where users can store their sensitive data with peace of mind, knowing that it is protected by robust encryption algorithms.","forkCount":0,"stargazers":{"totalCount":2},"url":"https://github.com/Shashwat53/SecureCloudX-An-Innovative-Approach-to-Enhance-Data-Security-Through-Advanced-File-Encryption","id":"R_kgDOJT902g","diskUsage":1978,"primaryLanguage":{"name":"Python","color":"#3572A5"}}},{"node":{"name":"MediAssist-LLM-Powered-Healthcare-Intelligence","description":"Built two RAG-based systems : Patient Engagement Assistant and Medicaid Policy Navigator — using open-source LLMs (Qwen-2.5, BGE, MarianMT) to simplify medical guidance and make Medicaid policies searchable. Fully modular, bilingual, and Colab-deployable for transparent, real-time healthcare retrieval.","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/Shashwat53/MediAssist-LLM-Powered-Healthcare-Intelligence","id":"R_kgDOQHg4Rg","diskUsage":11423,"primaryLanguage":{"name":"Python","color":"#3572A5"}}},{"node":{"name":"Cropable","description":"This project named “Cropable” detects the crop disease and recommends treatment accordingly. Using our application, the farmer can upload the image of the respective damaged crop our application will identify the disease and suggest treatment accordingly.","forkCount":0,"stargazers":{"totalCount":1},"url":"https://github.com/Shashwat53/Cropable","id":"R_kgDOJT-F2w","diskUsage":6933,"primaryLanguage":{"name":"Python","color":"#3572A5"}}},{"node":{"name":"Association-Rule-Mining-for-COVID-19-Data-using-MapReduce-and-Apriori-Algorithm","description":"Association Rule Mining for COVID-19 Data using MapReduce and Apriori Algorithm is a project that aims to discover hidden patterns and associations within large COVID-19 datasets. By using the Apriori algorithm and MapReduce, this project can efficiently analyze and identify correlations and dependencies between COVID-19 factors. ","forkCount":0,"stargazers":{"totalCount":0},"url":"https://github.com/Shashwat53/Association-Rule-Mining-for-COVID-19-Data-using-MapReduce-and-Apriori-Algorithm","id":"R_kgDOJT9ynQ","diskUsage":1454,"primaryLanguage":{"name":"Python","color":"#3572A5"}}}]}}}}
+{
+  "data": {
+    "user": {
+      "name": "Shashwat Kumar",
+      "bio": "MS in Data Science @ Columbia University | Ex-Intuit | Nokia AI & Data Intelligence",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106906594?u=dcd6f9a0c5d6550358d13058d27d3b3c32c1d893&v=4",
+      "location": "New York",
+      "pinnedItems": {
+        "totalCount": 6,
+        "edges": [
+          {
+            "node": {
+              "name": "Columbia_Capstone-KPMG",
+              "description": "Built an intelligent policy analysis assistant for Medicaid programs using an LLM-RAG pipeline with BGE-M3 embeddings, FAISS, and Neo4j KG, leveraging Llama-3.1-8B and Qwen-2.5-7B for context-grounded Q&A to improve retrieval accuracy and enable scalable healthcare document automation.",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/Shashwat53/Columbia_Capstone-KPMG",
+              "id": "R_kgDOQDXEhA",
+              "diskUsage": 34185,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          },
+          {
+            "node": {
+              "name": "Online-Retail-and-Electricity-Demand-Forecasting",
+              "description": "Built clustering (UMAP, MiniBatchKMeans) and forecasting pipelines on 1M+ retail transactions using Prophet, BiLSTM, GLM & SARIMA (7.65% MAPE). Optimized electricity-usage forecasts via Savitzky–Golay smoothing and improved splits, benchmarking BiLSTM, DeepAR, Prophet & Chronos (2.4% MAPE).",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/Shashwat53/Online-Retail-and-Electricity-Demand-Forecasting",
+              "id": "R_kgDOQHhKgQ",
+              "diskUsage": 21088,
+              "primaryLanguage": {
+                "name": "Jupyter Notebook",
+                "color": "#DA5B0B"
+              }
+            }
+          },
+          {
+            "node": {
+              "name": "SecureCloudX-An-Innovative-Approach-to-Enhance-Data-Security-Through-Advanced-File-Encryption",
+              "description": "SecureCloudX is a cutting-edge project that aims to enhance data security by utilizing advanced file encryption techniques. It offers a secure cloud environment where users can store their sensitive data with peace of mind, knowing that it is protected by robust encryption algorithms.",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 2},
+              "url": "https://github.com/Shashwat53/SecureCloudX-An-Innovative-Approach-to-Enhance-Data-Security-Through-Advanced-File-Encryption",
+              "id": "R_kgDOJT902g",
+              "diskUsage": 1978,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          },
+          {
+            "node": {
+              "name": "MediAssist-LLM-Powered-Healthcare-Intelligence",
+              "description": "Built two RAG-based systems : Patient Engagement Assistant and Medicaid Policy Navigator — using open-source LLMs (Qwen-2.5, BGE, MarianMT) to simplify medical guidance and make Medicaid policies searchable. Fully modular, bilingual, and Colab-deployable for transparent, real-time healthcare retrieval.",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/Shashwat53/MediAssist-LLM-Powered-Healthcare-Intelligence",
+              "id": "R_kgDOQHg4Rg",
+              "diskUsage": 11423,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          },
+          {
+            "node": {
+              "name": "Cropable",
+              "description": "This project named “Cropable” detects the crop disease and recommends treatment accordingly. Using our application, the farmer can upload the image of the respective damaged crop our application will identify the disease and suggest treatment accordingly.",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 1},
+              "url": "https://github.com/Shashwat53/Cropable",
+              "id": "R_kgDOJT-F2w",
+              "diskUsage": 6933,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          },
+          {
+            "node": {
+              "name": "Association-Rule-Mining-for-COVID-19-Data-using-MapReduce-and-Apriori-Algorithm",
+              "description": "Association Rule Mining for COVID-19 Data using MapReduce and Apriori Algorithm is a project that aims to discover hidden patterns and associations within large COVID-19 datasets. By using the Apriori algorithm and MapReduce, this project can efficiently analyze and identify correlations and dependencies between COVID-19 factors. ",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/Shashwat53/Association-Rule-Mining-for-COVID-19-Data-using-MapReduce-and-Apriori-Algorithm",
+              "id": "R_kgDOJT9ynQ",
+              "diskUsage": 1454,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
+          }
+        ]
+      }
+    }
+  }
+}

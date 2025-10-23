@@ -1,9 +1,9 @@
 {
-    "editor.inlineSuggest.enabled": true,
-    "editor.quickSuggestions": {
-        "other": "inline",
-        "comments": true,
-        "strings": true
-    },
-    "editor.quickSuggestionsDelay": 100
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "other": "inline",
+    "comments": true,
+    "strings": true
+  },
+  "editor.quickSuggestionsDelay": 100
 }

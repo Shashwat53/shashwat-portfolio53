@@ -26,10 +26,9 @@
 }
 .subTitle {
   color: $subTitle;
-  font-size: 19px;       /* 🔹 increase font size of skill text */
-  line-height: 1.6;      /* 🔹 adds better spacing for readability */
+  font-size: 19px; /* 🔹 increase font size of skill text */
+  line-height: 1.6; /* 🔹 adds better spacing for readability */
 }
-
 
 /* Media Query */
 @media (max-width: 1380px) {
