@@ -1,0 +1,99 @@
+name: Auto-update profile.json
+
+on:
+  schedule:
+    - cron: "0 */24 * * *"    # every 24 hours
+  workflow_dispatch:          # allows manual trigger
+
+permissions:
+  contents: write             # allow committing to repo
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch GitHub profile via GraphQL
+        env:
+          GH_USERNAME: Shashwat53
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          mkdir -p public
+
+          QUERY='query($login: String!) {
+            user(login: $login) {
+              name
+              bio
+              avatarUrl
+              location
+              pinnedItems(first: 3) {
+                totalCount
+                edges {
+                  node {
+                    ... on Repository {
+                      name
+                      description
+                      forkCount
+                      stargazers {
+                        totalCount
+                      }
+                      url
+                      id
+                      diskUsage
+                      primaryLanguage {
+                        name
+                        color
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }'
+
+          JSON_PAYLOAD=$(jq -n --arg q "$QUERY" --arg login "$GH_USERNAME" '{query: $q, variables: {login: $login}}')
+
+          echo "Fetching GraphQL data for $GH_USERNAME"
+          curl -s -X POST https://api.github.com/graphql \
+            -H "Authorization: bearer $GH_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$JSON_PAYLOAD" \
+            -o public/profile.json
+
+          echo "GraphQL response (first 20 lines):"
+          head -n 20 public/profile.json
+
+          # Validate output
+          if ! grep -q '"data"' public/profile.json; then
+            echo "❌ ERROR: Invalid GraphQL response (no 'data' field)"
+            cat public/profile.json
+            exit 1
+          fi
+
+          npx prettier --write public/profile.json
+
+      - name: Show preview (for logs)
+        run: |
+          echo "Top of generated public/profile.json:"
+          head -n 30 public/profile.json || true
+
+      - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/profile.json
+          git commit -m "Auto-update profile.json" || echo "No changes to commit"
+          git push
+
+      - name: Trigger Vercel redeploy
+        if: success()
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          echo "Triggering Vercel redeploy..."
+          curl -X POST "$DEPLOY_HOOK"
