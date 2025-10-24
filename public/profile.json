@@ -16,7 +16,7 @@
               "stargazers": {"totalCount": 1},
               "url": "https://github.com/Shashwat53/Columbia_Capstone-KPMG",
               "id": "R_kgDOQDXEhA",
-              "diskUsage": 34185,
+              "diskUsage": 38165,
               "primaryLanguage": {"name": "Python", "color": "#3572A5"}
             }
           },
@@ -44,42 +44,6 @@
               "url": "https://github.com/Shashwat53/SecureCloudX-An-Innovative-Approach-to-Enhance-Data-Security-Through-Advanced-File-Encryption",
               "id": "R_kgDOJT902g",
               "diskUsage": 1978,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
-            }
-          },
-          {
-            "node": {
-              "name": "MediAssist-LLM-Powered-Healthcare-Intelligence",
-              "description": "Built two RAG-based systems : Patient Engagement Assistant and Medicaid Policy Navigator — using open-source LLMs (Qwen-2.5, BGE, MarianMT) to simplify medical guidance and make Medicaid policies searchable. Fully modular, bilingual, and Colab-deployable for transparent, real-time healthcare retrieval.",
-              "forkCount": 0,
-              "stargazers": {"totalCount": 0},
-              "url": "https://github.com/Shashwat53/MediAssist-LLM-Powered-Healthcare-Intelligence",
-              "id": "R_kgDOQHg4Rg",
-              "diskUsage": 11423,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
-            }
-          },
-          {
-            "node": {
-              "name": "Cropable",
-              "description": "This project named “Cropable” detects the crop disease and recommends treatment accordingly. Using our application, the farmer can upload the image of the respective damaged crop our application will identify the disease and suggest treatment accordingly.",
-              "forkCount": 0,
-              "stargazers": {"totalCount": 1},
-              "url": "https://github.com/Shashwat53/Cropable",
-              "id": "R_kgDOJT-F2w",
-              "diskUsage": 6933,
-              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
-            }
-          },
-          {
-            "node": {
-              "name": "Association-Rule-Mining-for-COVID-19-Data-using-MapReduce-and-Apriori-Algorithm",
-              "description": "Association Rule Mining for COVID-19 Data using MapReduce and Apriori Algorithm is a project that aims to discover hidden patterns and associations within large COVID-19 datasets. By using the Apriori algorithm and MapReduce, this project can efficiently analyze and identify correlations and dependencies between COVID-19 factors. ",
-              "forkCount": 0,
-              "stargazers": {"totalCount": 0},
-              "url": "https://github.com/Shashwat53/Association-Rule-Mining-for-COVID-19-Data-using-MapReduce-and-Apriori-Algorithm",
-              "id": "R_kgDOJT9ynQ",
-              "diskUsage": 1454,
               "primaryLanguage": {"name": "Python", "color": "#3572A5"}
             }
           }
