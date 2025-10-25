@@ -46,6 +46,18 @@
               "diskUsage": 1978,
               "primaryLanguage": {"name": "Python", "color": "#3572A5"}
             }
+          },
+          {
+            "node": {
+              "name": "MediAssist-LLM-Powered-Healthcare-Intelligence",
+              "description": "Built two RAG-based systems : Patient Engagement Assistant and Medicaid Policy Navigator — using open-source LLMs (Qwen-2.5, BGE, MarianMT) to simplify medical guidance and make Medicaid policies searchable. Fully modular, bilingual, and Colab-deployable for transparent, real-time healthcare retrieval.",
+              "forkCount": 0,
+              "stargazers": {"totalCount": 0},
+              "url": "https://github.com/Shashwat53/MediAssist-LLM-Powered-Healthcare-Intelligence",
+              "id": "R_kgDOQHg4Rg",
+              "diskUsage": 11423,
+              "primaryLanguage": {"name": "Python", "color": "#3572A5"}
+            }
           }
         ]
       }
